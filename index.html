@@ -15,30 +15,31 @@
 
 <body>
 
+<main>
   <div class="rating">
     <img class="rating__icon" src="./images/icon-star.svg" alt="">
     <h2 class="rating__title">How did we do?</h2>
     <p class="rating__text">Please let us know how we did with your support request. All feedback is appreciated to help
       us improve our offering!</p>
-    <form action="" class="rating__form">
+    <form action="" class="rating__form" id="ratingForm">
       <div class="rating__radios">
-        <input type="radio" name="" id="">
-        <label for="">1</label>
-        <input type="radio" name="" id="">
-        <label for="">1</label>
-        <input type="radio" name="" id="">
-        <label for="">1</label>
-        <input type="radio" name="" id="">
-        <label for="">1</label>
-        <input type="radio" name="" id="">
-        <label for="">1</label>
+        <input class="rating__radio" type="radio" value="1" name="ratingInput" id="rating1">
+        <label for="rating1">1</label>
+        <input class="rating__radio" type="radio" value="2" name="ratingInput" id="rating2">
+        <label for="rating2">2</label>
+        <input class="rating__radio" type="radio" value="3" name="ratingInput" id="rating3">
+        <label for="rating3">3</label>
+        <input class="rating__radio" type="radio" value="4" name="ratingInput" id="rating4">
+        <label for="rating4">4</label>
+        <input class="rating__radio" type="radio" value="5" name="ratingInput" id="rating5">
+        <label for="rating5">5</label>
       </div>
-      <button type="submit">Submit</button>
+      <button class="rating__form-submit" type="submit">Submit</button>
     </form>
   </div>
 
 
-  <div class="thank-you">
+  <div class="thank-you inactive">
     <img class="thank-you__img" src="./images/illustration-thank-you.svg" alt="">
     <p class="thank-you__results">You selected <span>2</span> out of 5</p>
     <h2 class="thank-you__title">Thank you!</h2>
@@ -46,6 +47,7 @@
       We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
     </p>
   </div>
+</main>
 
 
 
