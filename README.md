@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-(./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 (./design/desktop-thank-you-state.jpg)
 (./design/mobile-design.jpg)
 (./design/mobile-thank-you-state.jpg)
