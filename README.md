@@ -23,10 +23,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
-(./design/desktop-thank-you-state.jpg)
-(./design/mobile-design.jpg)
-(./design/mobile-thank-you-state.jpg)
+![Preview](./design/desktop-design.jpg)
+![Thank you Preview](./design/desktop-thank-you-state.jpg)
+![Mobile Preview](./design/mobile-design.jpg)
+![Thank you Mobile Preview](./design/mobile-thank-you-state.jpg)
 
 ### Links
 
