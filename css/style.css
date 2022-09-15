@@ -104,13 +104,12 @@ main{
     border: none;
     outline: none;
     text-transform: uppercase;
-    color: var(--white-color);
+    color: var(--very-dark-color);
     letter-spacing: 2px;
     font-weight: 700;
 }
 .rating__form-submit:hover{
     background-color: var(--white-color);
-    color: var(--primary-color);
     cursor: pointer;
 }
 .rating__form-error{
